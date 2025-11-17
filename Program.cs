@@ -62,7 +62,7 @@ string[] symptoms = new string[n];
 
 for (int i = 0; i < n; i++)
 {
-    Console.WriteLine($"Enter the name of pateint {i+1}:");
+    Console.WriteLine($"Enter the name of patient {i+1}:");
     names[i] = Console.ReadLine();
     Console.WriteLine($"Enter the age of {names[i]}: ");
     age[i] = Convert.ToInt32(Console.ReadLine());
